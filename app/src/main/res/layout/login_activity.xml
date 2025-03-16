@@ -74,12 +74,13 @@
 
 
     <TextView
+        android:id="@+id/signupview"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
         android:clickable="true"
-        android:text="You don't have an account ? sign in"
+        android:text="You don't have an account ? sign up"
         android:textColor="#45553D"
         android:textSize="14sp"
         android:textStyle="bold" />

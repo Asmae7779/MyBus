@@ -52,7 +52,6 @@
                 android:textSize="16sp"
                 android:drawablePadding="10dp"
                 android:gravity="center_vertical"
-                android:strokeWidth="2dp"
                 android:strokeColor="#61785F"/>
 
 

@@ -66,9 +66,7 @@
         android:layout_height="50dp"
         android:hint="Confirm password"
         android:padding="12dp"
-        android:drawableStart="@drawable/ic_lock"
         android:inputType="textPassword"
-        android:background="@drawable/edittext_background"
         android:textColorHint="#61785f"
         android:layout_marginTop="8dp" />
 
@@ -93,12 +91,14 @@
 
 
     <TextView
+        android:id="@+id/loginview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already have an account? Sign in"
+        android:text="Already have an account? Log in"
         android:textColor="#45553D"
         android:textSize="14sp"
         android:layout_marginTop="12dp"
+
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
         android:clickable="true" />
