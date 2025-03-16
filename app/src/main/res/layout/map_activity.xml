@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    android:orientation="vertical"
+    android:background="#E6EDE2"
+    android:padding="16dp">
+
+    <!-- Conteneur de la carte -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Fond de la carte -->
+
+        <!-- Barre de recherche -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Carte ici"
+
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Search location..."
+                android:padding="12dp"
+                android:textColor="#61785F"
+                android:textColorHint="#61785F"
+                android:backgroundTint="#FFFFFF"
+                android:background="@null"
+                android:elevation="4dp"
+                android:layout_margin="8dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:strokeWidth="2dp"
+                android:strokeColor="#61785F"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Search"
+                android:backgroundTint="#728A6E"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- Section des boutons -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:padding="16dp"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#728A6E"
+            android:text="interface1"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#728A6E"
+            android:text="interface2"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#728A6E"
+            android:text="interface3"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#728A6E"
+            android:text="interface4"
+            android:textColor="#FFFFFF" />
+
+    </GridLayout>
+
+</LinearLayout>

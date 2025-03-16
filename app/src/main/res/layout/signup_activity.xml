@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6EDE2"
+    android:id="@+id/signup"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/buslogo"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Texte principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your journey starts here\nTake the first step"
+        android:textSize="18sp"
+        android:textColor="#45553D"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Champ Email -->
+
+    <!-- Champ Username -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:textColorHint="#61785f"
+        android:layout_marginTop="8dp" />
+
+    <!-- Champ Password -->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Email"
+        android:padding="12dp"
+        android:textColorHint="#61785f" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:padding="12dp"
+
+        android:inputType="textPassword"
+
+        android:textColorHint="#61785f"
+        android:layout_marginTop="8dp" />
+
+    <!-- Champ Confirm Password -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm password"
+        android:padding="12dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="#61785f"
+        android:layout_marginTop="8dp" />
+
+    <!-- Bouton Sign up -->
+
+    <!-- Ligne de séparation -->
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#728A6E"
+        android:text="Sign up" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="#61785f"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign in"
+        android:textColor="#45553D"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:clickable="true" />
+
+</LinearLayout>
